@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Fragments.FourButtonsFragment">
+
+    <TableLayout
+        android:id="@+id/table"
+        style="@style/TableStyle"
+        >
+
+        <TableRow
+            android:id="@+id/tableLineOne"
+            style="@style/TableStyle"
+            >
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/btnBlue"
+                android:background="@color/blueBtn" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/btnRed"
+                android:background="@color/redBtn" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableLineTwo"
+            style="@style/TableStyle"
+            >
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/btnGreen"
+                android:background="@color/greenBtn" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/btnYellow"
+                android:background="@color/yellowBtn" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableLineThree"
+            style="@style/TableStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnPurple"
+                style="@style/ButtonStyle"
+                android:background="@color/purpleBtn" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>
