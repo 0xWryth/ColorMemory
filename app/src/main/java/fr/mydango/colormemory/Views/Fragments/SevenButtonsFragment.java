@@ -8,12 +8,12 @@ import android.view.ViewGroup;
 
 import fr.mydango.colormemory.R;
 
-public class FourButtonsFragment extends ButtonsFragment {
+public class SevenButtonsFragment extends ButtonsFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_four_buttons, container, false);
+        return inflater.inflate(R.layout.fragment_seven_buttons, container, false);
     }
 
 }

@@ -9,4 +9,9 @@
     <color name="greenBtn">#64dd17</color>
     <color name="yellowBtn">#ffd600</color>
     <color name="purpleBtn">#aa00ff</color>
+    <color name="orangeBtn">#ff6d00</color>
+    <color name="pinkBtn">#ff80ab</color>
+    <color name="indigoBtn">#8c9eff</color>
+    <color name="tealBtn">#64ffda</color>
+    <color name="greyBtn">#263238</color>
 </resources>
