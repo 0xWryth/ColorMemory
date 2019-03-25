@@ -14,4 +14,6 @@
     <color name="indigoBtn">#8c9eff</color>
     <color name="tealBtn">#64ffda</color>
     <color name="greyBtn">#263238</color>
+
+    <color name="white">#ffffff</color>
 </resources>
