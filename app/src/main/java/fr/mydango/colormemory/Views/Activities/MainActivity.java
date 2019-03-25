@@ -1,9 +1,13 @@
 package fr.mydango.colormemory.Views.Activities;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +20,7 @@ import fr.mydango.colormemory.Views.Fragments.EightButtonsFragment;
 import fr.mydango.colormemory.Views.Fragments.FiveButtonsFragment;
 import fr.mydango.colormemory.Views.Fragments.FourButtonsFragment;
 import fr.mydango.colormemory.Views.Fragments.NineButtonsFragment;
+import fr.mydango.colormemory.Views.Fragments.SevenButtonsFragment;
 import fr.mydango.colormemory.Views.Fragments.SixButtonsFragment;
 import fr.mydango.colormemory.Views.Fragments.TenButtonsFragment;
 
@@ -29,12 +34,15 @@ public class MainActivity extends AppCompatActivity {
 
     private List<ButtonsFragment> _allFragments;
 
+    private List<Integer> defaultColor;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         _allFragments = new ArrayList<>();
         _allFragments.add(new FourButtonsFragment());
         _allFragments.add(new FiveButtonsFragment());
         _allFragments.add(new SixButtonsFragment());
+        _allFragments.add(new SevenButtonsFragment());
         _allFragments.add(new EightButtonsFragment());
         _allFragments.add(new NineButtonsFragment());
         _allFragments.add(new TenButtonsFragment());
@@ -49,9 +57,50 @@ public class MainActivity extends AppCompatActivity {
         updateFragment(block);
     }
 
+    private void setDefaultColor()
+    {
+        defaultColor = new ArrayList<>();
+
+        List<Button> btn = _allFragments.get(0).getAllButtons();
+        for (Button b : btn)
+        {
+            ColorDrawable cd = (ColorDrawable) b.getBackground();
+            int colorId = cd.getColor();
+            defaultColor.add(colorId);
+        }
+    }
+
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+        setDefaultColor();
+        griserBtn();
+    }
+
+    private void griserBtn() {
+        List<Button> btn = _allFragments.get(0).getAllButtons();
+        for (Button b : btn)
+        {
+            b.setTag(b.getBackground());
+            b.setBackgroundColor(Color.rgb(1, 1 ,2));
+        }
+    }
+
+    private void degriserBtn() {
+        List<Button> btn = _allFragments.get(0).getAllButtons();
+        int i = 0;
+        for (Button b : btn)
+        {
+            b.setBackgroundColor(defaultColor.get(i));
+            i++;
+        }
+    }
+
     public void addBtn(View view) {
-        block++;
-        updateFragment(block);
+        degriserBtn();
+        /*block++;
+        updateFragment(block);*/
     }
 
     public static int randInt(int min, int max) {
@@ -82,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         for(Colors c : Colors.values())
         {
             String id = "btn" + c;
-            findViewById(id);
+            //findViewById(id);
         }
     }
 

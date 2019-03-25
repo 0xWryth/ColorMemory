@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import fr.mydango.colormemory.Logic.SignUpCompleteListener;
 import fr.mydango.colormemory.R;
 import fr.mydango.colormemory.Views.Activities.MainActivity;
 

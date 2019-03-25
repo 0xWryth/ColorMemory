@@ -21,15 +21,35 @@ public class EightButtonsFragment extends ButtonsFragment {
     }
 
     @Override
-    public List<Button> getAllButtons(){
+    public List<Button> getAllButtons() {
         View view = getView();
-        List<Button> result = new ArrayList<>();
+        List<Button> result = new ArrayList<Button>();
 
-        /*result.add(view.findViewById(R.id.btnBlue));
-        result.add(view.findViewById(R.id.btnGreen));
-        result.add(view.findViewById(R.id.btnYellow));*/
+        Button btn = view.findViewById(R.id.btnBlue);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnRed);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnGreen);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnYellow);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnPurple);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnOrange);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnPink);
+        result.add(btn);
+
+        btn = view.findViewById(R.id.btnIndigo);
+        result.add(btn);
 
         return result;
-    }
 
+    }
 }

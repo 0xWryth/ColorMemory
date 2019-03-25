@@ -29,3 +29,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:10.0.1'
     implementation 'com.google.firebase:firebase-auth:10.0.1'
 }
+
+apply plugin: 'com.google.gms.google-services'
