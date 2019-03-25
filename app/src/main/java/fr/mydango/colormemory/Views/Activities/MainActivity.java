@@ -12,7 +12,9 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
+import fr.mydango.colormemory.Logic.GameTask;
 import fr.mydango.colormemory.Models.Colors;
 import fr.mydango.colormemory.R;
 import fr.mydango.colormemory.Views.Fragments.ButtonsFragment;
@@ -28,13 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private int block;
     private int level;
 
-    private int combinaison;
-    private int combinaisonMax = 7;
-    List<Colors> combinaisonPrecedante;
-
     private List<ButtonsFragment> _allFragments;
-
-    private List<Integer> defaultColor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,101 +43,28 @@ public class MainActivity extends AppCompatActivity {
         _allFragments.add(new NineButtonsFragment());
         _allFragments.add(new TenButtonsFragment());
 
-        combinaisonPrecedante = new ArrayList<>();
-
         level = 1;
         block = 4;
-        combinaison = 1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         updateFragment(block);
-    }
-
-    private void setDefaultColor()
-    {
-        defaultColor = new ArrayList<>();
-
-        List<Button> btn = _allFragments.get(0).getAllButtons();
-        for (Button b : btn)
-        {
-            ColorDrawable cd = (ColorDrawable) b.getBackground();
-            int colorId = cd.getColor();
-            defaultColor.add(colorId);
-        }
     }
 
     @Override
     protected void onStart()
     {
         super.onStart();
-        setDefaultColor();
-        griserBtn();
-    }
-
-    private void griserBtn() {
-        List<Button> btn = _allFragments.get(0).getAllButtons();
-        for (Button b : btn)
-        {
-            b.setTag(b.getBackground());
-            b.setBackgroundColor(Color.rgb(1, 1 ,2));
-        }
-    }
-
-    private void degriserBtn() {
-        List<Button> btn = _allFragments.get(0).getAllButtons();
-        int i = 0;
-        for (Button b : btn)
-        {
-            b.setBackgroundColor(defaultColor.get(i));
-            i++;
-        }
     }
 
     public void addBtn(View view) {
-        degriserBtn();
         /*block++;
         updateFragment(block);*/
     }
 
-    public static int randInt(int min, int max) {
-        Random rand = new Random();
-
-        int randomNum = rand.nextInt((max - min) + 1) + min;
-
-        return randomNum;
-    }
-
-    private void createRandomCombinaison() {
-        List<Colors> combi;
-        if (combinaisonPrecedante.size() == 0)
-        {
-            combi = new ArrayList<>(combinaison);
-            for (int i = 0; i < combinaison; i++)
-                combi.add(Colors.values()[randInt(0, block)]);
-            combinaisonPrecedante = combi;
-        }
-        else
-        {
-            combi = combinaisonPrecedante;
-            combi.add(Colors.values()[randInt(0, block)]);
-        }
-    }
-
-    private void griserLesButtons() {
-        for(Colors c : Colors.values())
-        {
-            String id = "btn" + c;
-            //findViewById(id);
-        }
-    }
-
-    private void displayCombinaison() {
-        griserLesButtons();
-    }
 
     public void startGame(View view) {
-        createRandomCombinaison();
-        displayCombinaison();
+        GameTask gt = new GameTask(_allFragments.get(0).getAllButtons());
+        gt.execute(2);
     }
 
     private void updateFragment(int block) {

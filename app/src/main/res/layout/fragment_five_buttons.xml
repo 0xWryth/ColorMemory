@@ -22,8 +22,8 @@
                 android:background="@color/blueBtn" />
 
             <Button
-                style="@style/ButtonStyle"
                 android:id="@+id/btnRed"
+                style="@style/ButtonStyle"
                 android:background="@color/redBtn" />
 
         </TableRow>
