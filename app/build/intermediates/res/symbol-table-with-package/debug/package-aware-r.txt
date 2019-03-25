@@ -706,6 +706,7 @@ id CTRL
 id FUNCTION
 id FragmentContainer
 id META
+id MainActivity
 id SHIFT
 id SYM
 id action0
@@ -1030,10 +1031,17 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string congrat_you_are_authenticate
+string default_web_client_id
 string email
 string email_empty
 string email_missing
+string firebase_database_url
 string forgot_password_msg
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string hint_email
 string hint_name
@@ -1044,6 +1052,7 @@ string log_out
 string minimum_password
 string passwordMissing
 string password_empty
+string project_id
 string reset_password_fail
 string reset_password_success
 string search_menu_title
