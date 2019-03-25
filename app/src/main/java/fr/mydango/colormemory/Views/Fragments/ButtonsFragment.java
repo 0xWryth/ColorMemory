@@ -7,5 +7,4 @@ import android.widget.Button;
 import java.util.List;
 
 abstract public class ButtonsFragment extends Fragment {
-    public abstract List<Button> getAllButtons();
 }

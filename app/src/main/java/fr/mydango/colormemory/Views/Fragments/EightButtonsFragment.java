@@ -20,16 +20,4 @@ public class EightButtonsFragment extends ButtonsFragment {
         return inflater.inflate(R.layout.fragment_eight_buttons, container, false);
     }
 
-    @Override
-    public List<Button> getAllButtons(){
-        View view = getView();
-        List<Button> result = new ArrayList<>();
-
-        /*result.add(view.findViewById(R.id.btnBlue));
-        result.add(view.findViewById(R.id.btnGreen));
-        result.add(view.findViewById(R.id.btnYellow));*/
-
-        return result;
-    }
-
 }

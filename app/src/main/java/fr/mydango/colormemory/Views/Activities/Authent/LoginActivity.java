@@ -9,8 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.tpillon.authentapp.Logic.LoginCompleteListener;
 
+import fr.mydango.colormemory.Logic.LoginCompleteListener;
 import fr.mydango.colormemory.R;
 
 /**

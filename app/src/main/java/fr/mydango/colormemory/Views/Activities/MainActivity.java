@@ -1,14 +1,17 @@
 package fr.mydango.colormemory.Views.Activities;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import fr.mydango.colormemory.Logic.GameSettings;
 import fr.mydango.colormemory.Models.Colors;
 import fr.mydango.colormemory.R;
 import fr.mydango.colormemory.Views.Fragments.ButtonsFragment;
@@ -26,11 +29,16 @@ public class MainActivity extends AppCompatActivity {
     private int combinaison;
     private int combinaisonMax = 7;
     List<Colors> combinaisonPrecedante;
+    String mode_id;
 
     private List<ButtonsFragment> _allFragments;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Intent intent = getIntent();
+        mode_id = intent.getStringExtra(MenuActivity.KEY);
+        GameSettings gameS = new GameSettings(mode_id);
+
         _allFragments = new ArrayList<>();
         _allFragments.add(new FourButtonsFragment());
         _allFragments.add(new FiveButtonsFragment());
@@ -82,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         for(Colors c : Colors.values())
         {
             String id = "btn" + c;
-            findViewById(id);
+            //findViewById(id);
         }
     }
 
