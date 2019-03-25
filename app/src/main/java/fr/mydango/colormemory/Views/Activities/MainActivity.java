@@ -3,6 +3,7 @@ package fr.mydango.colormemory.Views.Activities;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import fr.mydango.colormemory.Logic.GameTask;
+import fr.mydango.colormemory.Logic.GameSettings;
 import fr.mydango.colormemory.Models.Colors;
 import fr.mydango.colormemory.R;
 import fr.mydango.colormemory.Views.Fragments.ButtonsFragment;
@@ -30,10 +32,15 @@ public class MainActivity extends AppCompatActivity {
     private int block;
     private int level;
 
+    String mode_id;
     private List<ButtonsFragment> _allFragments;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Intent intent = getIntent();
+        mode_id = intent.getStringExtra(MenuActivity.KEY);
+        GameSettings gameS = new GameSettings(mode_id);
+
         _allFragments = new ArrayList<>();
         _allFragments.add(new FourButtonsFragment());
         _allFragments.add(new FiveButtonsFragment());
@@ -60,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         /*block++;
         updateFragment(block);*/
     }
+
 
 
     public void startGame(View view) {
