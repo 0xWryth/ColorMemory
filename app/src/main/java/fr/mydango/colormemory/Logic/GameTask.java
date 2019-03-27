@@ -13,16 +13,16 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
     List<Button> listBtn;
     private List<Integer> defaultColor;
 
-    private int nbCombinaison;
     List<Integer> combinaison;
 
     private int nbBlockMax;
 
-    public GameTask(List<Button> listBtn) {
+    public GameTask(List<Integer> listeCombinaison, List<Button> listBtn) {
+        combinaison = listeCombinaison;
+
+
         this.listBtn = listBtn;
-        nbCombinaison = 1;
         nbBlockMax = 4;
-        combinaison = new ArrayList<>();
     }
 
     private void setDefaultColor()
@@ -49,6 +49,12 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
     protected Void doInBackground(Integer... i) {
         if (i[0] != 0)
         {
+            try {
+                Thread.sleep(775);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
             int rand = 0;
             if (combinaison.size() == 0)
             {
@@ -60,19 +66,20 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
                 } while( rand == combinaison.get(combinaison.size() - 1) );
             }
 
-            System.out.println(rand);
-
-            combinaison.add(rand);
             publishProgress(rand);
 
+            rand = listBtn.get(rand).getId();
+
+            combinaison.add(rand);
+
             try {
-                Thread.sleep(1500);
+                Thread.sleep(775);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            int indiceMin = i[0] - 1;
-            doInBackground(indiceMin);
+            //int indiceMin = i[0] - 1;
+            //doInBackground(indiceMin);
         }
 
         return null;
@@ -111,7 +118,7 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
         for (Button b : listBtn)
         {
             setDefaultColor();
-            b.setEnabled(false);
+            //b.setEnabled(false);
         }
         griserTousBtn();
     }
@@ -123,7 +130,7 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
         int i = 0;
         for (Button b : listBtn)
         {
-            b.setEnabled(true);
+            //b.setEnabled(true);
             b.setBackgroundColor(defaultColor.get(i));
             i++;
         }

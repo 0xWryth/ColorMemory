@@ -2,66 +2,26 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1553531972022"
+    timestamp="1553537808909"
     token="7700561628113561080"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3578" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="857" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1913" />
-
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -107,5 +67,65 @@
             location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1553532918898"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1553536442080"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1553537434989"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1553537737284"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Lucas\Documents\Android\ColorMemory\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1553537808909"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

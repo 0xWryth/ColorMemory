@@ -19,11 +19,13 @@
             <Button
                 style="@style/ButtonStyle"
                 android:id="@+id/btnBlue"
+                android:onClick="BtnClick"
                 android:background="@color/blueBtn" />
 
             <Button
                 android:id="@+id/btnRed"
                 style="@style/ButtonStyle"
+                android:onClick="BtnClick"
                 android:background="@color/redBtn" />
 
         </TableRow>
@@ -36,11 +38,13 @@
             <Button
                 style="@style/ButtonStyle"
                 android:id="@+id/btnGreen"
+                android:onClick="BtnClick"
                 android:background="@color/greenBtn" />
 
             <Button
                 style="@style/ButtonStyle"
                 android:id="@+id/btnYellow"
+                android:onClick="BtnClick"
                 android:background="@color/yellowBtn" />
 
         </TableRow>
@@ -54,6 +58,7 @@
             <Button
                 android:id="@+id/btnPurple"
                 style="@style/ButtonStyle"
+                android:onClick="BtnClick"
                 android:background="@color/purpleBtn" />
         </TableRow>
     </TableLayout>

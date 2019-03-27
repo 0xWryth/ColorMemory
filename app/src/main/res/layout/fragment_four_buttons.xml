@@ -17,9 +17,9 @@
             >
 
             <Button
-                style="@style/ButtonStyle"
                 android:id="@+id/btnBlue"
-                android:background="@color/blueBtn" />
+                style="@style/ButtonStyle"
+                android:background="@color/blueBtn"/>
 
             <Button
                 style="@style/ButtonStyle"

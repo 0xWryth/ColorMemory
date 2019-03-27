@@ -755,8 +755,6 @@ id btn_back
 id btn_login
 id btn_reset_password
 id btn_signup
-id button
-id button2
 id button3
 id button4
 id button5

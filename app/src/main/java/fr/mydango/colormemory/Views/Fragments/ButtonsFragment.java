@@ -2,6 +2,7 @@ package fr.mydango.colormemory.Views.Fragments;
 
 
 import android.support.v4.app.Fragment;
+import android.view.View;
 import android.widget.Button;
 
 import java.util.List;

@@ -64,21 +64,20 @@ public final class R {
         public static final int adjust_height = 0x7f07001d;
         public static final int adjust_width = 0x7f07001e;
         public static final int auto = 0x7f070023;
-        public static final int button = 0x7f070036;
-        public static final int center = 0x7f07003d;
-        public static final int dark = 0x7f07004a;
-        public static final int email = 0x7f070051;
-        public static final int icon_only = 0x7f070062;
-        public static final int light = 0x7f070069;
-        public static final int none = 0x7f070073;
-        public static final int normal = 0x7f070074;
-        public static final int progressBar = 0x7f07007d;
-        public static final int radio = 0x7f070080;
-        public static final int standard = 0x7f0700a0;
-        public static final int text = 0x7f0700ae;
-        public static final int text2 = 0x7f0700af;
-        public static final int wide = 0x7f0700bc;
-        public static final int wrap_content = 0x7f0700bf;
+        public static final int center = 0x7f07003b;
+        public static final int dark = 0x7f070048;
+        public static final int email = 0x7f07004f;
+        public static final int icon_only = 0x7f070060;
+        public static final int light = 0x7f070067;
+        public static final int none = 0x7f070071;
+        public static final int normal = 0x7f070072;
+        public static final int progressBar = 0x7f07007b;
+        public static final int radio = 0x7f07007e;
+        public static final int standard = 0x7f07009e;
+        public static final int text = 0x7f0700ac;
+        public static final int text2 = 0x7f0700ad;
+        public static final int wide = 0x7f0700ba;
+        public static final int wrap_content = 0x7f0700bd;
     }
     public static final class integer {
         private integer() {}

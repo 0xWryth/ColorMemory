@@ -84,6 +84,7 @@
             <Button
                 android:id="@+id/btnGrey"
                 style="@style/ButtonStyle"
+                android:onClick="BtnClick"
                 android:background="@color/greyBtn" />
 
         </TableRow>
