@@ -9,20 +9,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import fr.mydango.colormemory.Models.Combinaison;
+
 public class GameTask extends AsyncTask<Integer, Integer, Object> {
     List<Button> listBtn;
     private List<Integer> defaultColor;
 
-    List<Integer> combinaison;
+    List<Combinaison> combinaison;
 
     private int nbBlockMax;
 
-    public GameTask(List<Integer> listeCombinaison, List<Button> listBtn) {
+    public GameTask(List<Combinaison> listeCombinaison, List<Button> listBtn, int nb) {
         combinaison = listeCombinaison;
 
-
         this.listBtn = listBtn;
-        nbBlockMax = 4;
+        nbBlockMax = nb;
     }
 
     private void setDefaultColor()
@@ -45,16 +46,31 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
         return randomNum;
     }
 
+    private void affichage(int publish)
+    {
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        publishProgress(publish);
+
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     protected Void doInBackground(Integer... i) {
+        if (combinaison.size() != 0)
+            for (Combinaison c : combinaison)
+                affichage(c.idArray);
+
         if (i[0] != 0)
         {
-            try {
-                Thread.sleep(775);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
             int rand = 0;
             if (combinaison.size() == 0)
             {
@@ -63,23 +79,12 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
             else {
                 do {
                     rand = randInt(0, nbBlockMax - 1);
-                } while( rand == combinaison.get(combinaison.size() - 1) );
+                } while( rand == combinaison.get(combinaison.size() - 1).idArray );
             }
 
-            publishProgress(rand);
+            affichage(rand);
 
-            rand = listBtn.get(rand).getId();
-
-            combinaison.add(rand);
-
-            try {
-                Thread.sleep(775);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            //int indiceMin = i[0] - 1;
-            //doInBackground(indiceMin);
+            combinaison.add(new Combinaison(listBtn.get(rand).getId(), rand));
         }
 
         return null;
@@ -118,7 +123,7 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
         for (Button b : listBtn)
         {
             setDefaultColor();
-            //b.setEnabled(false);
+            b.setEnabled(false);
         }
         griserTousBtn();
     }
@@ -130,7 +135,7 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
         int i = 0;
         for (Button b : listBtn)
         {
-            //b.setEnabled(true);
+            b.setEnabled(true);
             b.setBackgroundColor(defaultColor.get(i));
             i++;
         }

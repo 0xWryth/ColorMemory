@@ -758,6 +758,7 @@ id btn_signup
 id button3
 id button4
 id button5
+id button6
 id buttonPanel
 id cancel_action
 id center
@@ -877,6 +878,9 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textView2
+id textView3
 id textViewMenu
 id time
 id title
@@ -887,6 +891,7 @@ id topPanel
 id uniform
 id up
 id useLogo
+id vie
 id wide
 id withText
 id wrap
@@ -952,6 +957,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout score_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

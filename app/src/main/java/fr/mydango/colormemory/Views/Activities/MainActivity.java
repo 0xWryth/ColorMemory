@@ -6,12 +6,14 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import fr.mydango.colormemory.Logic.GameSettings;
 import fr.mydango.colormemory.Logic.GameTask;
+import fr.mydango.colormemory.Models.Combinaison;
 import fr.mydango.colormemory.R;
 import fr.mydango.colormemory.Views.Fragments.ButtonsFragment;
 import fr.mydango.colormemory.Views.Fragments.EightButtonsFragment;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity{
     private int level;
 
     private int nbCombi;
-    private List<Integer> ListeCombi;
+    private List<Combinaison> ListeCombi;
     private int indiceCombi;
 
     String mode_id;
@@ -75,34 +77,47 @@ public class MainActivity extends AppCompatActivity{
                 public void onClick(View v) {
                     // ListeCombi
                     int id = v.getId();
-                    if (ListeCombi.get(indiceCombi) == id)
+                    if (ListeCombi.get(indiceCombi).idBtn == id)
                     {
                         if (ListeCombi.size() - 1 == indiceCombi)
-                            game();
+                            game(true);
                         else
                             indiceCombi++;
                     }
                     else
                     {
-                        System.out.println("fail");
                         life--;
+                        TextView vie = findViewById(R.id.vie);
+                        vie.setText("Vous avez " + life + " vie");
+                        if (life > 0)
+                            vie.setText(vie.getText() + "s");
                         if (life == 0)
                         {
                             //You died
+                        }
+                        else {
+                            game(false);
                         }
                     }
                 }
             });
     }
 
-    private void game(){
-        GameTask gt = new GameTask(ListeCombi, _allFragments.get(block - 4).getAllButtons());
-        gt.execute(nbCombi);
-        nbCombi++;
+    private void game(boolean noZero){
+        GameTask gt = new GameTask(ListeCombi, _allFragments.get(block - 4).getAllButtons(), block);
+        if (noZero && nbCombi != gameS.GetMaxCombi())
+        {
+            gt.execute(nbCombi);
+            nbCombi++;
+        }
+        else
+            gt.execute(0);
         if (nbCombi == gameS.GetMaxCombi())
         {
-            nbCombi = 0;
+            nbCombi = gameS.GetMinCombi();
             addBtn();
+            game(true);
+            addListener();
         }
         indiceCombi = 0;
     }
@@ -112,35 +127,14 @@ public class MainActivity extends AppCompatActivity{
     {
         super.onStart();
         addListener();
-        game();
+        game(true);
     }
 
     public void addBtn() {
         block++;
         updateFragment(block);
-        addListener();
-    }
 
-    public void BtnClick(View view) {
-        // ListeCombi
-        int id = view.getId();
-        if (ListeCombi.get(indiceCombi) == id)
-        {
-            System.out.println("pas fail");
-            /**if (ListeCombi.size() - 1 == indiceCombi)
-             game();
-             else
-             indiceCombi++;**/
-        }
-        else
-        {
-            System.out.println("fail");
-            /**life--;
-             if (life == 0)
-             {
-             // You died
-             }**/
-        }
+        ListeCombi = new ArrayList<>();
     }
 
     private void updateFragment(int block) {
@@ -156,5 +150,13 @@ public class MainActivity extends AppCompatActivity{
     private ButtonsFragment getCurrentFragment(int block)
     {
         return _allFragments.get(block - 4);
+    }
+
+    public static final String KEY2 = "fr.mydango.colormemory.Views.Activities.KEY2";
+    public void sendScore(int score)
+    {
+        Intent intentScore = new Intent(this, ScoreActivity.class);
+        intentScore.putExtra(KEY2, "" + score);
+        startActivity(intentScore);
     }
 }
