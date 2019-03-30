@@ -1,377 +1,381 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5441f45e40b1373417205d6bbf10e44e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\eda9f1265a036776aa0d0045833dad6f\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\79850e00e6df57d62a5660b5efc11926\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\def3ee7db009cfc60e3d1efcc7c0a669\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:16:1-34:12
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:16:1-51:12
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\6e36f0ca5dd98cfbab86d1a43c830abb\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9eb085bdfbbde483d9b0daf9dd7f0b95\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9a247d964b749b07b5698ef427466fa2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d86f69daa7c0e9298038500fa5ec7b5c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\97f9187905591d4b134d0cac6821822a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\eada07311eef1b553b39108e551d6564\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\999249bfd3c10e446a40e0a6a2980480\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\e34bb1474681c7dfdc1276abd1fac06d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\ec152fb3453275378226804c975c60c1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c04939dc27beb36ddcbe30261f0443fd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f008a903afee46d6eb692b7ebbeb8cc4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0839d2850fd777bac10ddda03e801c98\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2c567c66ca27cc539f4d1f44eec43d9d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\26b95586e32dbbc826641814a1ab9369\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d8f594f1dd935372614c396d4b09faf9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1f27194562aee772bec96bb63bc65c83\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\05c06171de528169b5714b19bc453c8c\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\50c9d4a87a96ac6389db37f60e8104dc\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1923f8098fb5fe487af13202d9c6486e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bff946f414243032f570eb88fc0fd70c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ea538e11e2a95da4f871b2b6de3d4146\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\8f613d1341e209268a266cebb9df29aa\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\47502f6dccff79e2ede9702bcd841037\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1203b4ddb32a70942e623de435819f17\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c73ad134b52c6452b8d7846a8ed9a47e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\caf200c917ebc35b4a20a6e247b4b24c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\322483bb906de8acf674e36db925488e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b43a98a1dd24a78489152a611430856a\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e6068a5a883324ee6ce808914ec85dee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\a8d5c16d4dd395bd516fa1e55e739b8f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\11458a8ecbd8ba74e702267c549575a9\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\e78478650882fd7d75c5cb44b7f2ed92\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:16:1-51:12
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5f6ddb84e4048da57a4572aa00158500\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\dda05c89d9f5d154faea994a04e1ddcf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4dfde5d019129ee1d0b32886e5513c70\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\5e17bd64e87183c50694382e4f84bc41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7b52a77a98f348bf864f16b95b97a230\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\5baf82c2622cbab6b6a60b529fdda8d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\be5641712d73c0e6d25751470e539b0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\dee8a973809c5b33e8bb23b102c9d74c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\90c4fe0203e40c935d7fdff21dd1388e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\52635bb79e258e35a8a84a8865845b30\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b35170e4bdee48c5ee1a12be72b8f135\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\00396a5848ecf939baaa66e62a49ff3b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e2695cd8a6d1633359a19994dca6edf3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e541910ba4271c29c6e12cd8fccaeacb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\31e1c0a43ebd871cf261ef66f8ac3cc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f81c08881299263b28efe54f00a11f05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1bb333fa886ccfd68d550e8b3ceccb2b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5032fbe55ef137c2544f849fbd06d8d6\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\682ba7060e9fc9e7f0ff80e689f55423\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b9b1c30765002eaafa6c2deead807f69\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\860528a6c803493c489d9ae27aa4bc81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7393563886647d912920c6b40909a592\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d7df45a06e8506f59c5b5707c624a762\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ad44dee902396ed68916616df1fc682a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e7fb6d65d6af6c3097536d012162af01\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\7d4ba009a8599a6a13168fcf369d800f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5c6115782ecc670fb0edac38da2d5a86\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3114747d26d2e0685d1f9932c954ded2\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:20:5-66
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:7:5-25:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\eda9f1265a036776aa0d0045833dad6f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\eda9f1265a036776aa0d0045833dad6f\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\79850e00e6df57d62a5660b5efc11926\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\79850e00e6df57d62a5660b5efc11926\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\def3ee7db009cfc60e3d1efcc7c0a669\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\def3ee7db009cfc60e3d1efcc7c0a669\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\6e36f0ca5dd98cfbab86d1a43c830abb\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\6e36f0ca5dd98cfbab86d1a43c830abb\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\05c06171de528169b5714b19bc453c8c\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\05c06171de528169b5714b19bc453c8c\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\50c9d4a87a96ac6389db37f60e8104dc\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\50c9d4a87a96ac6389db37f60e8104dc\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:7:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\a8d5c16d4dd395bd516fa1e55e739b8f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\a8d5c16d4dd395bd516fa1e55e739b8f\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\11458a8ecbd8ba74e702267c549575a9\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\11458a8ecbd8ba74e702267c549575a9\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\e78478650882fd7d75c5cb44b7f2ed92\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\e78478650882fd7d75c5cb44b7f2ed92\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5f6ddb84e4048da57a4572aa00158500\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5f6ddb84e4048da57a4572aa00158500\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1bb333fa886ccfd68d550e8b3ceccb2b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1bb333fa886ccfd68d550e8b3ceccb2b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5032fbe55ef137c2544f849fbd06d8d6\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5032fbe55ef137c2544f849fbd06d8d6\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\05c06171de528169b5714b19bc453c8c\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1bb333fa886ccfd68d550e8b3ceccb2b\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:13:9-40
 activity#fr.mydango.colormemory.Views.Activities.MenuActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:14:19-64
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:14:19-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:18:27-74
 activity#fr.mydango.colormemory.Views.Activities.Authent.ResetPasswordActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:21:9-84
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:21:9-84
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:21:19-81
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:21:19-81
 activity#fr.mydango.colormemory.Views.Activities.Authent.LoginActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:22:9-76
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:22:9-76
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:22:19-73
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:22:19-73
 activity#fr.mydango.colormemory.Views.Activities.Authent.SignupActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:23:9-76
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:23:9-76
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:23:19-74
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:23:19-74
 activity#fr.mydango.colormemory.Views.Activities.MainActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:24:9-66
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:24:9-66
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:24:19-64
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:24:19-64
+activity#fr.mydango.colormemory.Views.Activities.ScoreActivity
+ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml:25:19-65
 uses-sdk
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5441f45e40b1373417205d6bbf10e44e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5441f45e40b1373417205d6bbf10e44e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\eda9f1265a036776aa0d0045833dad6f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\eda9f1265a036776aa0d0045833dad6f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\79850e00e6df57d62a5660b5efc11926\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\79850e00e6df57d62a5660b5efc11926\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\def3ee7db009cfc60e3d1efcc7c0a669\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\def3ee7db009cfc60e3d1efcc7c0a669\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\6e36f0ca5dd98cfbab86d1a43c830abb\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\6e36f0ca5dd98cfbab86d1a43c830abb\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9eb085bdfbbde483d9b0daf9dd7f0b95\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9eb085bdfbbde483d9b0daf9dd7f0b95\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9a247d964b749b07b5698ef427466fa2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9a247d964b749b07b5698ef427466fa2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d86f69daa7c0e9298038500fa5ec7b5c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d86f69daa7c0e9298038500fa5ec7b5c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\97f9187905591d4b134d0cac6821822a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\97f9187905591d4b134d0cac6821822a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\eada07311eef1b553b39108e551d6564\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\eada07311eef1b553b39108e551d6564\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\999249bfd3c10e446a40e0a6a2980480\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\999249bfd3c10e446a40e0a6a2980480\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\e34bb1474681c7dfdc1276abd1fac06d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\e34bb1474681c7dfdc1276abd1fac06d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\ec152fb3453275378226804c975c60c1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\ec152fb3453275378226804c975c60c1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c04939dc27beb36ddcbe30261f0443fd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c04939dc27beb36ddcbe30261f0443fd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f008a903afee46d6eb692b7ebbeb8cc4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f008a903afee46d6eb692b7ebbeb8cc4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0839d2850fd777bac10ddda03e801c98\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0839d2850fd777bac10ddda03e801c98\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2c567c66ca27cc539f4d1f44eec43d9d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2c567c66ca27cc539f4d1f44eec43d9d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\26b95586e32dbbc826641814a1ab9369\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\26b95586e32dbbc826641814a1ab9369\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d8f594f1dd935372614c396d4b09faf9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d8f594f1dd935372614c396d4b09faf9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1f27194562aee772bec96bb63bc65c83\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1f27194562aee772bec96bb63bc65c83\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\05c06171de528169b5714b19bc453c8c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\05c06171de528169b5714b19bc453c8c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\50c9d4a87a96ac6389db37f60e8104dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\50c9d4a87a96ac6389db37f60e8104dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1923f8098fb5fe487af13202d9c6486e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1923f8098fb5fe487af13202d9c6486e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bff946f414243032f570eb88fc0fd70c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bff946f414243032f570eb88fc0fd70c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ea538e11e2a95da4f871b2b6de3d4146\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ea538e11e2a95da4f871b2b6de3d4146\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\8f613d1341e209268a266cebb9df29aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\8f613d1341e209268a266cebb9df29aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\47502f6dccff79e2ede9702bcd841037\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\47502f6dccff79e2ede9702bcd841037\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1203b4ddb32a70942e623de435819f17\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1203b4ddb32a70942e623de435819f17\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c73ad134b52c6452b8d7846a8ed9a47e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c73ad134b52c6452b8d7846a8ed9a47e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\caf200c917ebc35b4a20a6e247b4b24c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\caf200c917ebc35b4a20a6e247b4b24c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\322483bb906de8acf674e36db925488e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\322483bb906de8acf674e36db925488e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b43a98a1dd24a78489152a611430856a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b43a98a1dd24a78489152a611430856a\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e6068a5a883324ee6ce808914ec85dee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e6068a5a883324ee6ce808914ec85dee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\a8d5c16d4dd395bd516fa1e55e739b8f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\a8d5c16d4dd395bd516fa1e55e739b8f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\11458a8ecbd8ba74e702267c549575a9\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.0.1.aar\11458a8ecbd8ba74e702267c549575a9\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\e78478650882fd7d75c5cb44b7f2ed92\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-core-10.0.1.aar\e78478650882fd7d75c5cb44b7f2ed92\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5f6ddb84e4048da57a4572aa00158500\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5f6ddb84e4048da57a4572aa00158500\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\dda05c89d9f5d154faea994a04e1ddcf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\dda05c89d9f5d154faea994a04e1ddcf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4dfde5d019129ee1d0b32886e5513c70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4dfde5d019129ee1d0b32886e5513c70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\5e17bd64e87183c50694382e4f84bc41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\5e17bd64e87183c50694382e4f84bc41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7b52a77a98f348bf864f16b95b97a230\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7b52a77a98f348bf864f16b95b97a230\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\5baf82c2622cbab6b6a60b529fdda8d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\5baf82c2622cbab6b6a60b529fdda8d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\be5641712d73c0e6d25751470e539b0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\be5641712d73c0e6d25751470e539b0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\dee8a973809c5b33e8bb23b102c9d74c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\dee8a973809c5b33e8bb23b102c9d74c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\90c4fe0203e40c935d7fdff21dd1388e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\90c4fe0203e40c935d7fdff21dd1388e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\52635bb79e258e35a8a84a8865845b30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\52635bb79e258e35a8a84a8865845b30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b35170e4bdee48c5ee1a12be72b8f135\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b35170e4bdee48c5ee1a12be72b8f135\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\00396a5848ecf939baaa66e62a49ff3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\00396a5848ecf939baaa66e62a49ff3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e2695cd8a6d1633359a19994dca6edf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e2695cd8a6d1633359a19994dca6edf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e541910ba4271c29c6e12cd8fccaeacb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e541910ba4271c29c6e12cd8fccaeacb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\31e1c0a43ebd871cf261ef66f8ac3cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\31e1c0a43ebd871cf261ef66f8ac3cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f81c08881299263b28efe54f00a11f05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f81c08881299263b28efe54f00a11f05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1bb333fa886ccfd68d550e8b3ceccb2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1bb333fa886ccfd68d550e8b3ceccb2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5032fbe55ef137c2544f849fbd06d8d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5032fbe55ef137c2544f849fbd06d8d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\682ba7060e9fc9e7f0ff80e689f55423\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\682ba7060e9fc9e7f0ff80e689f55423\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b9b1c30765002eaafa6c2deead807f69\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b9b1c30765002eaafa6c2deead807f69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\860528a6c803493c489d9ae27aa4bc81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\860528a6c803493c489d9ae27aa4bc81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7393563886647d912920c6b40909a592\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7393563886647d912920c6b40909a592\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d7df45a06e8506f59c5b5707c624a762\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d7df45a06e8506f59c5b5707c624a762\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ad44dee902396ed68916616df1fc682a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ad44dee902396ed68916616df1fc682a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e7fb6d65d6af6c3097536d012162af01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e7fb6d65d6af6c3097536d012162af01\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\7d4ba009a8599a6a13168fcf369d800f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\7d4ba009a8599a6a13168fcf369d800f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5c6115782ecc670fb0edac38da2d5a86\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5c6115782ecc670fb0edac38da2d5a86\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3114747d26d2e0685d1f9932c954ded2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3114747d26d2e0685d1f9932c954ded2\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Noctasys\Desktop\Nouveau dossier\ColorMemory\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:27:17-104
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\aeb3ae97e0a48767baa654727527fdee\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\5589179cb375cfeb07ce43a490ff36b8\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\eda89987fbdcf1fac49e4da6176a368b\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\686c7b45a7d1a2463ce3d6db29af44e9\AndroidManifest.xml:32:16-87
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\02d280f6a2db1f115701a0c31b562239\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\c087b427d778abc45e035b896cb9c1f9\AndroidManifest.xml:19:19-85
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:24:17-71
 permission#fr.mydango.colormemory.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:26:22-76
 uses-permission#fr.mydango.colormemory.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:30:19-84
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:31:13-35:29
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:fr.mydango.colormemory
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:34:27-58
 category#fr.mydango.colormemory
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:44:18-82
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\d8b2050582e8b35c9358e1a4a2ca7c5b\AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\7cb8db140f165ba635319414e1c1f86b\AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\314174f9b18cb7ef6a36518785f675bf\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\5cf5c328d5ba4bd2e5647ece547c5a9d\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lucas\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\93341525e1a51b007d563caeb75a12d6\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Noctasys\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\f665735e764083eae20cf6d971b695b5\AndroidManifest.xml:20:20-65

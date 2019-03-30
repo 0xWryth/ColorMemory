@@ -22,6 +22,7 @@
         <activity android:name=".Views.Activities.Authent.LoginActivity" />
         <activity android:name=".Views.Activities.Authent.SignupActivity"/>
         <activity android:name=".Views.Activities.MainActivity"/>
+        <activity android:name=".Views.Activities.ScoreActivity"/>
     </application>
 
 </manifest>

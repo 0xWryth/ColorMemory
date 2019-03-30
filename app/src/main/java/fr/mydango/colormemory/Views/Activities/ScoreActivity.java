@@ -2,9 +2,11 @@ package fr.mydango.colormemory.Views.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import fr.mydango.colormemory.R;
@@ -13,8 +15,9 @@ public class ScoreActivity extends AppCompatActivity {
     public String score;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_score);
 
         Intent intent = getIntent();
         score = intent.getStringExtra(MainActivity.KEY2);

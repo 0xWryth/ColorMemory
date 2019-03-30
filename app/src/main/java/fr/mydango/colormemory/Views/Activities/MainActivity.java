@@ -27,6 +27,7 @@ import fr.mydango.colormemory.Views.Fragments.TenButtonsFragment;
 public class MainActivity extends AppCompatActivity{
     private int block;
     private int level;
+    private double multiP;
 
     private int nbCombi;
     private List<Combinaison> ListeCombi;
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = getIntent();
         mode_id = intent.getStringExtra(MenuActivity.KEY);
         gameS = new GameSettings(mode_id);
+
+        multiP = gameS.GetScoreMultiplier();
 
         _allFragments = new ArrayList<>();
         _allFragments.add(new FourButtonsFragment());
@@ -93,7 +96,7 @@ public class MainActivity extends AppCompatActivity{
                             vie.setText(vie.getText() + "s");
                         if (life == 0)
                         {
-                            //You died
+                            sendScore((block - 4) * multiP);
                         }
                         else {
                             game(false);
@@ -115,9 +118,9 @@ public class MainActivity extends AppCompatActivity{
         if (nbCombi == gameS.GetMaxCombi())
         {
             nbCombi = gameS.GetMinCombi();
-            addBtn();
-            game(true);
-            addListener();
+                addBtn();
+                game(true);
+                addListener();
         }
         indiceCombi = 0;
     }
@@ -131,10 +134,20 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void addBtn() {
-        block++;
-        updateFragment(block);
+        life = gameS.GetLives();
+        TextView vie = findViewById(R.id.vie);
+        vie.setText("Vous avez " + life + " vies");
 
+        block++;
+        if (block == 11)
+        {
+            sendScore(7*multiP);
+        }
+        else {
+            updateFragment(block);
+        }
         ListeCombi = new ArrayList<>();
+
     }
 
     private void updateFragment(int block) {
@@ -153,10 +166,11 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public static final String KEY2 = "fr.mydango.colormemory.Views.Activities.KEY2";
-    public void sendScore(int score)
+    public void sendScore(double score)
     {
         Intent intentScore = new Intent(this, ScoreActivity.class);
-        intentScore.putExtra(KEY2, "" + score);
+        intentScore.putExtra(KEY2, ("" + score));
         startActivity(intentScore);
+        finish();
     }
 }

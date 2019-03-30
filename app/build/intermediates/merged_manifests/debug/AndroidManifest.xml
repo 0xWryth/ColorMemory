@@ -40,6 +40,7 @@
         <activity android:name="fr.mydango.colormemory.Views.Activities.Authent.LoginActivity" />
         <activity android:name="fr.mydango.colormemory.Views.Activities.Authent.SignupActivity" />
         <activity android:name="fr.mydango.colormemory.Views.Activities.MainActivity" />
+        <activity android:name="fr.mydango.colormemory.Views.Activities.ScoreActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

@@ -934,6 +934,7 @@ layout activity_login
 layout activity_main
 layout activity_menu
 layout activity_reset_password
+layout activity_score
 layout activity_signup
 layout fragment_eight_buttons
 layout fragment_five_buttons
@@ -957,7 +958,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout score_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
