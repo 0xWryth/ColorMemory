@@ -8,7 +8,8 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:gravity="center">
 
         <TableRow
             android:layout_width="match_parent"
@@ -21,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="50dp"
                 android:layout_marginTop="10dp"
-                android:text="Choississez votre mode de jeu"
+                android:text="Choisissez votre mode de jeu"
                 android:textAlignment="center" />
         </TableRow>
 
@@ -34,8 +35,8 @@
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Easy mode"
-                android:onClick="selectModeEasy"/>
+                android:onClick="selectModeEasy"
+                android:text="Easy mode" />
         </TableRow>
 
         <TableRow
@@ -47,8 +48,8 @@
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hard Mode"
-                android:onClick="selectModeHard"/>
+                android:onClick="selectModeHard"
+                android:text="Hard Mode" />
         </TableRow>
 
         <TableRow
@@ -60,8 +61,8 @@
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Expert mode"
-                android:onClick="selectModeExpert"/>
+                android:onClick="selectModeExpert"
+                android:text="Expert mode" />
         </TableRow>
     </TableLayout>
 </android.support.constraint.ConstraintLayout>

@@ -23,7 +23,7 @@ public class ScoreActivity extends AppCompatActivity {
         score = intent.getStringExtra(MainActivity.KEY2);
 
         TextView t2 = findViewById(R.id.textView3);
-        t2.setText(score + "Points");
+        t2.setText(score + " Points");
     }
 
     public void retour(View view)
