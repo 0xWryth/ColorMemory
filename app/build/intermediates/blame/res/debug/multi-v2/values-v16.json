@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Noctasys\\Desktop\\Nouveau dossier\\ColorMemory\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\Lucas\\Documents\\Android\\ColorMemory\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Noctasys\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\1bb333fa886ccfd68d550e8b3ceccb2b\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lucas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\05c06171de528169b5714b19bc453c8c\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Noctasys\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\e6068a5a883324ee6ce808914ec85dee\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lucas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5441f45e40b1373417205d6bbf10e44e\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

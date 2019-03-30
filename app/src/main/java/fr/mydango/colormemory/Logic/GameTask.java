@@ -71,20 +71,26 @@ public class GameTask extends AsyncTask<Integer, Integer, Object> {
 
         if (i[0] != 0)
         {
-            int rand = 0;
+            int delimiteur = 1;
             if (combinaison.size() == 0)
+                delimiteur = i[0];
+            for (int cpt = 0; cpt < delimiteur; cpt++)
             {
-                rand = randInt(0, nbBlockMax - 1);
-            }
-            else {
-                do {
+                int rand = 0;
+                if (combinaison.size() == 0)
+                {
                     rand = randInt(0, nbBlockMax - 1);
-                } while( rand == combinaison.get(combinaison.size() - 1).idArray );
+                }
+                else {
+                    do {
+                        rand = randInt(0, nbBlockMax - 1);
+                    } while( rand == combinaison.get(combinaison.size() - 1).idArray );
+                }
+
+                affichage(rand);
+
+                combinaison.add(new Combinaison(listBtn.get(rand).getId(), rand));
             }
-
-            affichage(rand);
-
-            combinaison.add(new Combinaison(listBtn.get(rand).getId(), rand));
         }
 
         return null;
