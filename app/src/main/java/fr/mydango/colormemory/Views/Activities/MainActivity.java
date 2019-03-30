@@ -107,20 +107,22 @@ public class MainActivity extends AppCompatActivity{
     }
 
     private void game(boolean noZero){
-        GameTask gt = new GameTask(ListeCombi, _allFragments.get(block - 4).getAllButtons(), block);
-        if (noZero && nbCombi != gameS.GetMaxCombi() + 1)
-        {
-            gt.execute(nbCombi);
-            nbCombi++;
-        }
-        else
-            gt.execute(0);
         if (nbCombi == gameS.GetMaxCombi() + 1)
         {
             nbCombi = gameS.GetMinCombi();
-                addBtn();
-                game(true);
-                addListener();
+            addBtn();
+            game(true);
+            addListener();
+        }
+        else {
+            GameTask gt = new GameTask(ListeCombi, _allFragments.get(block - 4).getAllButtons(), block);
+            if (noZero && nbCombi != gameS.GetMaxCombi() + 1)
+            {
+                gt.execute(nbCombi);
+                nbCombi++;
+            }
+            else
+                gt.execute(0);
         }
         indiceCombi = 0;
     }
