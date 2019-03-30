@@ -43,7 +43,7 @@ public class SevenButtonsFragment extends ButtonsFragment {
         btn = view.findViewById(R.id.btnOrange);
         result.add(btn);
 
-        btn = view.findViewById(R.id.btnPurple);
+        btn = view.findViewById(R.id.btnPink);
         result.add(btn);
 
 

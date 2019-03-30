@@ -52,6 +52,9 @@ public class TenButtonsFragment extends ButtonsFragment {
         btn = view.findViewById(R.id.btnGrey);
         result.add(btn);
 
+        btn = view.findViewById(R.id.btnTeal);
+        result.add(btn);
+
         return result;
 
     }
