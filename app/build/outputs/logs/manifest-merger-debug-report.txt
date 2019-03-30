@@ -109,10 +109,10 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lucas\.gra
 		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:13:9-40
-activity#fr.mydango.colormemory.Views.Activities.MenuActivity
+activity#fr.mydango.colormemory.Views.Activities.Authent.LoginActivity
 ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:14:19-64
+		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:14:19-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
@@ -123,14 +123,14 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:18:27-74
+activity#fr.mydango.colormemory.Views.Activities.MenuActivity
+ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:21:9-67
+	android:name
+		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:21:19-64
 activity#fr.mydango.colormemory.Views.Activities.Authent.ResetPasswordActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:21:9-84
+ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:22:9-84
 	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:21:19-81
-activity#fr.mydango.colormemory.Views.Activities.Authent.LoginActivity
-ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:22:9-76
-	android:name
-		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:22:19-73
+		ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:22:19-81
 activity#fr.mydango.colormemory.Views.Activities.Authent.SignupActivity
 ADDED from C:\Users\Lucas\Documents\Android\ColorMemory\app\src\main\AndroidManifest.xml:23:9-76
 	android:name

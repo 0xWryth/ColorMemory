@@ -14,6 +14,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import fr.mydango.colormemory.Logic.SignUpCompleteListener;
 import fr.mydango.colormemory.R;
 import fr.mydango.colormemory.Views.Activities.MainActivity;
+import fr.mydango.colormemory.Views.Activities.MenuActivity;
 
 /**
  * activity to register new user
@@ -28,7 +29,7 @@ public class SignupActivity extends AppCompatActivity {
     /**
      * type of the class direct after authent
      */
-    public static final Class<? extends Activity> ACTIVITY_AFTER_AUTHENT = MainActivity.class;
+    public static final Class<? extends Activity> ACTIVITY_AFTER_AUTHENT = MenuActivity.class;
     /**
      * input the write email
      */
